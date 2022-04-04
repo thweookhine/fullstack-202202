@@ -22,7 +22,7 @@
 
 		<h3>Add New Class for ${course.name}</h3>
 
-		<div class="row">
+		<div class="row mt-4">
 			<div class="col-4">
 				<c:url var="save" value="/classes">
 					<c:param name="courseId" value="${course.id}"></c:param>

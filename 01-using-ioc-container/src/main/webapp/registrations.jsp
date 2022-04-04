@@ -21,7 +21,7 @@
 	<div class="container mt-4">
 		<h3>Registrations</h3>
 
-		<div class="mb-4">
+		<div class="mb-4 mt-4">
 			<c:url var="addNewRegistration" value="/registration-edit">
 				<c:param name="classId" value="${openClass.id}"></c:param>
 			</c:url>

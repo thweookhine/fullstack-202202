@@ -21,7 +21,7 @@
 	<div class="container mt-4">
 		<h1>Class For ${course.name}</h1>
 
-		<div class="mb-4">
+		<div class="mb-4 mt-4">
 			<c:url var="addNew" value="/class-edit">
 				<c:param name="courseId" value="${course.id}"></c:param>
 			</c:url>

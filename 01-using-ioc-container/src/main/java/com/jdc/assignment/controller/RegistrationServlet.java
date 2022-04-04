@@ -33,6 +33,7 @@ public class RegistrationServlet extends AbstractBeanFactoryServlet{
 		
 		var page = switch(req.getServletPath()) {
 		case "/registrations" -> {
+			
 			//Load Registrations of class
 			model = getBean("registrationModel", RegistrationModel.class);
 			req.setAttribute("registrations", model.findByClass(Integer.parseInt(classId)));
