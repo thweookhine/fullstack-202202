@@ -17,8 +17,7 @@ import com.jdc.assignment.model.CourseModel;
 @WebServlet(urlPatterns = {
 		"/",
 		"/courses",
-		"/course-edit",
-		"/course-save"
+		"/course-edit"
 })
 public class CourseServlet extends AbstractBeanFactoryServlet{
  
