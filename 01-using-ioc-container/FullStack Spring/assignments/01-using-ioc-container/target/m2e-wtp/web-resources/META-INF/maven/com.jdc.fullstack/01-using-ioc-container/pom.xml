@@ -24,16 +24,6 @@
 			<version>1.2</version>
 			<scope>provide</scope>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-context</artifactId>
-			<version>5.3.16</version>
-		</dependency>
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<version>8.0.28</version>
-		</dependency>
 	</dependencies>
 
 
@@ -60,9 +50,6 @@
 				<groupId>org.eclipse.jetty</groupId>
 				<artifactId>jetty-maven-plugin</artifactId>
 				<version>10.0.7</version>
-				<configuration>
-					<scan>1</scan>
-				</configuration>
 			</plugin>
 		</plugins>
 
